@@ -3,38 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benedict Tirkey</title>
+    <title>Adtab Khan</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 50px;
+            height: 100vh;
+            background: linear-gradient(135deg, #d1d1d1, #a8a8a8, #b0b0b0);
+        }
+        .container {
+            display: flex;
+            align-items: center;  /* Align items vertically centered */
+            justify-content: center; /* Center the content horizontally */
+            gap: 20px; /* Add space between image and paragraph */
         }
         img {
-            width: 50%;
-            height: auto;
-            border-radius: 10px;
+            width: 200px;  /* Set a specific width */
+            height: 200px; /* Set a specific height to make it circular */
+            border-radius: 50%; /* Make the image circular */
+            object-fit: cover; /* Ensure the image covers the area without distortion */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         p {
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 20px;
+            width: 40%; /* Adjust width as needed */
+            margin: 0;
             border-radius: 10px;
+            text-align: left;  /* Align text left inside the paragraph */
         }    
 
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#About me">About me</a>
+            <a href="#Contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- Main Section --> 
     <h1>Welcome to Benedict Page</h1>
-    <p>Experienced of 2.5 years which include 1.10 years experienced in Data analytics and engineering in insurance organization and 8 months of broadening knowledge, looking for transition to the Data Scientist role. With interest in analyzing raw data and statistics, brings excellent communication abilities with hands on experience in building machine learning models with deployment and creating dashboards with a story to tell.
-
-
-
-
-
-    </p>
+    <div class="container">
         <img src="D:\Project\Mywebsite\dark_image.jpg" alt="Sample Image">
-    </a>
+        <p>Experienced of 2.5 years which include 1.10 years experienced in Data analytics and engineering in insurance organization and 8 months of broadening knowledge, looking for transition to the Data Scientist role. With interest in analyzing raw data and statistics, brings excellent communication abilities with hands-on experience in building machine learning models with deployment and creating dashboards with a story to tell.</p>
+    </div>
 </body>
 </html>
